@@ -1,0 +1,9 @@
+*.pdf
+# .ly > .pdf
+
+*.midi
+# ignore lilypond-generated midi files
+# .ly > .midi, anyways
+
+*~
+# emacs
