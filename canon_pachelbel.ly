@@ -11,33 +11,59 @@ milarity with seems to be: https://youtu.be/7qph-9fBxU8 but this might just be a
 
 canon = \relative c' {
 				% Initial Intro - Just chords
-  <c e g d'>1 | <d g d'>1 | <c e a c>1 | <e g b>1 | <c f a>1 | <c e g c>1 | <c f a>1 | <d g b>1 |
+  <c\3 e\2 g\4 e'\1-4>1 | <d\3-1 g\2-2 g\4 d'\1-4>1 | <c\3 e\2 a\4-1 c\1-3>1 | <e\3-3 g\4 g\2-2 b\1-1>1 |
+  <c\3 f\2-1 a\1 a\4-2>1 | <c\3 e\2 g\4 c\1-3>1 | <c\3 f\2-1 a\1 a\4-2>1 | <d\3-1 g\4 g\2-3 b\1-2>1 |
 				% Initial Intro, Arpeggio
-  <c e g d'>4 e g e' | <d, g d'>4 d g d' | <c, e a c>4 e a c | <e, g b>4 e g b | <c, f a>4 c f a |
-  <c, e g c>4 e g c | <c, f a>4 c f a | <d, g b>4 d g b |
+  <c\3 e\2 g\4 e'\1-4>4 c\3 e\2 e'\1 | <d,\3-1 g\2-2 g\4 d'\1-4>4 d\3 g\2 d'\1 |
+  <c,\3 e\2 a\4-1 c\1-3>4 c\3 e\2 c'\1 | <e,\3-3 g\4 g\2-2 b\1-1>4 e\3 g\2 b\1 |
+  <c,\3 f\2-1 a\1 a\4-2>4 c\3 f\2 a\1 | <c,\3 e\2 g\4>4 c\3 e\2 g\2-3 |
+  <c,\3 f\2-1 a\1 a\4-2>4 c\3 f\2 a\1 | <d,\3-1 g\4 g\2-3 b\1-2>4 d\3 g\2 b\1 |
 				% Variations: A
-  <c, e g d'>4 c e' b | <g b g'>4 g f b | <g a c e>4 a c e | <g, b g'>4 g a' b, | <f a c f>4 f a c |
-  <c, e g c>4 e g c | <c, f a>4 c f c' | <d, g b>4 d g b |
+  <c,\3 e\2 g\4 c\1-1>4 c\3 e'\1-4 e,\2 | <g\4 g-1 b-1 g'-3>4 g\3 f'\1-2 b,\2 |
+  <g a-3 c-2 e-1>4 a\3 c\2 e\1 | <g,\4 g-1 b-1 g'-3>4 g\3 a'-4 b,\2 |
+  <f\3-1 a\2-1 c\4-1 f\1-4>4 f\3 a\2 c\4 | <c,\3 e\2 g\4 c\1-3>4 c\3 e\2 c'\1 |
+  <c,\3 f\2-1 a\1 a\4-2>4 c\3 f\2 c'\1-4 | <d,\3-1 g\4 g\2-3 b\1-2>4 d\3 g\2 b\1 |
 				% Variations: B
-  <c, e g c>4 b' c e, | <d g b>4 g a b | <c, e a c>4 b' c e | <g, b g'>4 e' g a | <f, a c f>4 e' d f |
-  <c, e g e'>4 d' c g | <c, f a>4 g' f c' | <d, g b>4 d g d |
+  <c,\3 e\2 g\4 c\1-3>4 b'\1-2 c\1-3 e,\2 | <d\3-1 g\4 g\2-3 b\1-2>4 g\2 a\1 b\1 |
+  <c,\3 e\2 a\4-1 c\1-3>4 b'\1-2 c-2 e-4 | <g,\4 g-1 b-1 g'-3>4 e'-1 g-3 a-4 |
+  <f,\3-1 a\2-1 c\4-1 f\1-4>4 e'\1-3 d\1-1 f\1-4 | <c,\3 e\2 g\4 e'\1-4>4 d'-3 c-2 g-1 |
+  <c, f-1 a a\4-2>4 g'-3 f c'-4 | <d,\3-1 g\4 g-3 b-2>4 d g d |
 				% Main Theme
-  <c e g g'>4 e'8 f g4 e8 f | <g, b g'>8 g a b c d e f | <g, a c e>4 c8 d e4 e,8 f | <e g>8 a g f g c b c |
-  <c, f a>4 c'8 b a4 g8 f | <c g' a>8 f e f g c b c | <c, f a>4 c'8 b a4 b8 c | <d, g b>8 c' d c b c a b |
+  <c\3 e\2 g\4 g'-4>4 e'8-1 f-2 g4-4 e8-1 f-2 | <g,\4 g-1 b-1 g'-4>8 g\3-1 a\3-3 b\2-1 c\2-2 d\2-4 e\1-1 f\1-2 |
+  <g, a-3 c-2 e-1>4 c8\2-2 d\2-4 e4-1 e,8 f-1 | <e-4 g-3 g\4>8 a g-3 f-1 g-3 c-4 b-2 c-3 |
+  <c, f-1 a a\4-2>4 c'8-4 b-3 a4 g8-3 f-1 | <c-3 g' g\4 a>8 f-1 e f-1 g-3 c-4 b-2 c-4 |
+  <c, f-1 a a\4-2>4 c'8-4 b-3 a4 b8-3 c-4 | <d,-1 g-2 g\4 b-1>8 c'-3 d-4 c-3 b-1 c-3 a b-1 |
 				% Main Theme, variation
-  <c, e g e'>4 c'8 d e4 d8 c | <d, g d'>8 b' c d e d c b | <c, e a c>4 a'8 b c4 e,8 f | <e g>8 a g f g c b c |
-  <c, f a>4 c'8 b a4 g8 f | <c g'>8 f e f g c b c | <c, f a>4 c'8 b a4 b8 c | <d, g b>8 c' d c b c a b |
+  <c,\3 e\2 g\4 e'-4>4 c'8-1 d-3 e4-4 d8-3 c-2 | <d,\3-1 g\4 g\2-2 d'-4>8 b'-1 c-3 d-4 e-4 d-3 c-2 b-2 |
+  <c,\3 e\2 a\4-1 c\1-3>4 a'8 b-2 c4-3 e,8 f-1 | <e-4 g-3 g\4>8 a g-3 f-1 g-3 c-4 b-2 c-3 |
+  <c, f-1 a a\4-2>4 c'8-4 b-3 a4 g8-3 f-1 | <c g' g\4-3>8 f-1 e f-1 g-3 c-3 b-2 c-3 |
+  <c, f-1 a a\4-2>4 c'8-4 b-3 a4 b8-3 c-4 | <d,-1 g-2 g\4 b-1>8 c'-3 d-4 c-3 b-1 c-3 a b-1 |
 				% Initial Intro, Arpeggio, again
-  <c, e g d'>4 e g e' | <d, g d'>4 d g d' | <c, e a c>4 e a c | <e, g b>4 e g b | <c, f a>4 c f a |
-  <c, e g c>4 e g c | <c, f a>4 c f a | <d, g b>4 d g b |
+  <c,\3 e\2 g\4 e'\1-4>4 c\3 e\2 e'\1 | <d,\3-1 g\2-2 g\4 d'\1-4>4 d\3 g\2 d'\1 |
+  <c,\3 e\2 a\4-1 c\1-3>4 c\3 e\2 c'\1 | <e,\3-3 g\4 g\2-2 b\1-1>4 e\3 g\2 b\1 |
+  <c,\3 f\2-1 a\1 a\4-2>4 c\3 f\2 a\1 | <c,\3 e\2 g\4>4 c\3 e\2 g\2-3 |
+  <c,\3 f\2-1 a\1 a\4-2>4 c\3 f\2 a\1 | <d,\3-1 g\4 g\2-3 b\1-2>4 d\3 g\2 b\1 |
 				%Outro
-  <c, g'>2 g' | <d g>4 a' g f | <c e a>2 e | <e g>4 f e d | <c f a>4 c f a | <c, e g>1 | <c f a>4 c f a |
-  <d, g b>4 d g b | <c, e c'>1 |
-    
+  <c, g'-3 g\4>2 g'-3 | <d-2 g-3 g\4>4 a' g f-1 |
+  <c e a\4-2>2 e | <e e\3-4 g\4>4 f-1 e d-2 |
+  <c\3 f\2-1 a\1 a\4-2>4 c\3 f\2 a\1 | <c,\3 e\2 g\4>1 |
+  <c\3 f\2-1 a\1 a\4-2>4 c\3 f\2 a\1 | <d,\3-1 g\4 g\2-3 b\1-2>4 d\3 g\2 b\1 |
+  <c, e c'-3>1 |
 }
 
 \score {
-  \canon
-  \layout { }
-  \midi { }
+  <<
+    \canon
+    {
+      \new TabStaff \with {
+	stringTunings = #ukulele-tuning
+      } {
+	\canon
+      }
+    }
+  >>
+  \layout {
+    \omit Voice.StringNumber
+  }
+\midi { }
 }
