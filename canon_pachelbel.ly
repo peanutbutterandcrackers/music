@@ -31,13 +31,13 @@ canon = \relative c' {
   <c, f-1 a a\4-2>4 g'-3 f c'-4 | <d,\3-1 g\4 g-3 b-2>4 d g d |
 				% Main Theme
   <c\3 e\2 g\4 g'-4>4 e'8-1 f-2 g4-4 e8-1 f-2 | <g,\4 g-1 b-1 g'-4>8 g\3-1 a\3-3 b\2-1 c\2-2 d\2-4 e\1-1 f\1-2 |
-  <g, a-3 c-2 e-1>4 c8\2-2 d\2-4 e4-1 e,8 f-1 | <e-4 g-3 g\4>8 a g-3 f-1 g-3 c-4 b-2 c-3 |
+  <g, a-3 c-2 e-1>4 c8\2-2 d\2-4 e4-1 e,8 f-1 | <e-4 g-3 g\4>8 a g-3 f-1 g-3 c-4 b-2 c-4 |
   <c, f-1 a a\4-2>4 c'8-4 b-3 a4 g8-3 f-1 | <c-3 g' g\4 a>8 f-1 e f-1 g-3 c-4 b-2 c-4 |
   <c, f-1 a a\4-2>4 c'8-4 b-3 a4 b8-3 c-4 | <d,-1 g-2 g\4 b-1>8 c'-3 d-4 c-3 b-1 c-3 a b-1 |
 				% Main Theme, variation
   <c,\3 e\2 g\4 e'-4>4 c'8-1 d-3 e4-4 d8-3 c-2 | <d,\3-1 g\4 g\2-2 d'-4>8 b'-1 c-3 d-4 e-4 d-3 c-2 b-2 |
-  <c,\3 e\2 a\4-1 c\1-3>4 a'8 b-2 c4-3 e,8 f-1 | <e-4 g-3 g\4>8 a g-3 f-1 g-3 c-4 b-2 c-3 |
-  <c, f-1 a a\4-2>4 c'8-4 b-3 a4 g8-3 f-1 | <c g' g\4-3>8 f-1 e f-1 g-3 c-3 b-2 c-3 |
+  <c,\3 e\2 a\4-1 c\1-3>4 a'8 b-2 c4-3 e,8 f-1 | <e-4 g-3 g\4>8 a g-3 f-1 g-3 c-4 b-2 c-4 |
+  <c, f-1 a a\4-2>4 c'8-4 b-3 a4 g8-3 f-1 | <c g' g\4-3>8 f-1 e f-1 g-3 c-4 b-2 c-4 |
   <c, f-1 a a\4-2>4 c'8-4 b-3 a4 b8-3 c-4 | <d,-1 g-2 g\4 b-1>8 c'-3 d-4 c-3 b-1 c-3 a b-1 |
 				% Initial Intro, Arpeggio, again
   <c,\3 e\2 g\4 e'\1-4>4 c\3 e\2 e'\1 | <d,\3-1 g\2-2 g\4 d'\1-4>4 d\3 g\2 d'\1 |
