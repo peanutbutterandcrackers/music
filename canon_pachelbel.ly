@@ -10,6 +10,7 @@ milarity with seems to be: https://youtu.be/7qph-9fBxU8 but this might just be a
 %}
 
 canon = \relative c' {
+  \tempo 4 = 140
 				% Initial Intro - Just chords
   <c\3 e\2 g\4 e'\1-4>1 | <d\3-1 g\2-2 g\4 d'\1-4>1 | <c\3 e\2 a\4-1 c\1-3>1 | <e\3-3 g\4 g\2-2 b\1-1>1 |
   <c\3 f\2-1 a\1 a\4-2>1 | <c\3 e\2 g\4 c\1-3>1 | <c\3 f\2-1 a\1 a\4-2>1 | <d\3-1 g\4 g\2-3 b\1-2>1 |
