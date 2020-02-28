@@ -51,6 +51,16 @@ canon = \relative c' {
   <c, e c'-3>1 |
 }
 
+\header {
+  title = "Pachelbel's Canon"
+  subtitle = "Canon in D"
+  subsubtitle = "(Transposed to C)"
+  composer = "Johann Pachelbel"
+  instrument = "Ukulele"
+  %copyright = "Lilypond Transcription: https://github.com/peanutbutterandcrackers/music | CC-BY"
+  tagline = ##f
+}
+
 \score {
   <<
     \canon
