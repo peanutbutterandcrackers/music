@@ -13,7 +13,7 @@ https://github.com/peanutbutterandcrackers/music
 
 prelude = \relative c' {
   \tempo 4 = 100
-  \key g \major
+  \key c \major
 
   c8\3-\RH #1 g'\4-\RH #1 e'\1-4\RH #3 d\1-2\RH #3 e\1-4\RH #3 g,\4-\RH #1 e'\1-4\RH #3 g,\4-\RH #1 |
   c,8\3-\RH #1 g'\4-\RH #1 e'\1-4\RH #3 d\1-2\RH #3 e\1-4\RH #3 g,\4-\RH #1 e'\1-4\RH #3 g,\4-\RH #1 |
@@ -56,8 +56,9 @@ prelude = \relative c' {
 }
 
 \header {
-  title = "Prelude - Cello Suite #1"
+  title = "Prelude - Cello Suite No. 1 in G Major"
   subtitle = "BWV 1007"
+  subsubtitle = "(Transposed to C)"
   composer = "J. S. Bach"
   arranger = "Roger Ruthen"
   instrument = "Ukulele"
